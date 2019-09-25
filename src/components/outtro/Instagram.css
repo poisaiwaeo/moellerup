@@ -1,0 +1,63 @@
+html,body{
+    margin: 0;
+    padding: 0;
+   }
+
+   Style:iframe {
+    background: white; 
+    max-width:100%; 
+    width: calc(100% - 2px); 
+    border-radius: 3px; 
+    border: 1px solid rgb(219, 219, 219); 
+    box-shadow: none; 
+    display: block; 
+    margin: 0px 0px 12px; 
+    min-width: 326px; 
+    padding: 0px;
+}
+  
+  
+  
+  
+   /*---Media Queries--*/
+    /*Pc*/
+    @media (min-width:1025px) {
+  
+  }
+  /*Tablet*/
+  @media (max-width:1024px) {
+  
+  }
+  /*Mobil*/
+  @media (max-width:600px){
+    /*Navbar*/
+    .navbar{
+        z-index: auto;
+    }
+    .header__container{
+      width: 100%;
+    }
+   
+  
+  }
+  
+  
+  
+    /*
+  Extra small (xs) devices (portrait phones, less than 576px)
+  No media query since this is the default in Bootstrap
+  
+  Small (sm) devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { ... }
+  
+  Medium (md) devices (tablets, 768px and up)
+  @media (min-width: 768px) { ... }
+  
+  Large (lg) devices (desktops, 992px and up)
+  @media (min-width: 992px) { ... }
+  
+  Extra (xl) large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... }
+  */
+  
+  
